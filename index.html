@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Shellmo Web Creator Prototype</title>
+  <meta charset="utf-8">
+   <!--StyleSheet -->
+  <link rel="stylesheet" type="text/css" media="all" href="css/SWC_Template.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="css/SWC_Menu.css" />
+</head>
+<body style="margin: 0;">
+
+<div id="canvas"></div>
+
+<div id="accordian">
+<h3>test</h3>
+  <ul>
+    <!--<li id="accordian_motor">-->
+     <li>
+      <h3><div id="accordian_motor_border"></div><div id="accordian_motor_img"><div id="accordian_motor_text">Motor</div></div></h3>
+      <ul id="accordian_motor">
+        <!--<li><a href="#"><div id="accordian_motor_icon1"><div id="accordian_motor_icontext">Under_construction</div></div></a></li>-->
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">Micropede</p></a></li>
+        <hr size="1">
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">TheoJansen Linkage</p></a></li>
+        <hr size="1">
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">RepWalker</p></a></li>
+      </ul>
+    </li>
+    <!-- <li id="accordian_core">-->
+    <li>
+      <h3><div id="accordian_core_border"></div><div id="accordian_core_img"><div id="accordian_core_text">Core</div></div></h3>
+      <ul id="accordian_core">
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">Arduino</p></a></li>
+         <hr size="1">
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">RepController</p></a></li>
+      </ul>
+    </li>
+    <!--<li id="accordian_shell" class="active">-->
+     <li class="active">
+      <h3><div id="accordian_shell_border"></div><div id="accordian_shell_img"><div id="accordian_shell_text">Shell</div></div></h3>
+      <ul id="accordian_shell">
+        <li id="submenu"><a href="#"><img src="images/block_color.jpg"><p id="accordian_motor_icontext">  Colour</p></a></li>
+         <hr size="1">
+        <li><a href="#"><img src="images/block_module.jpg"><p id="accordian_motor_icontext">  Module</p></a></li>
+         <hr size="1">
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">  Texture</p></a></li>
+      </ul>
+    </li>
+    <li>
+    <!--<li id="accordian_accessory">-->
+      <h3><div id="accordian_accessory_border"></div><div id="accordian_accessory_img"><div id="accordian_accessory_text">Accessory</div></div></h3>
+      <ul id="accordian_accessory">
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">  Pierce "OSHW"</p></a></li>
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">  Eyes</p></a></li>
+        <li><a href="#"><img src="images/block.jpg"><p id="accordian_motor_icontext">  Ears</p></a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
+<div id="accordian_sub">
+
+<h3 id="submenu_close"><img src="images/block.jpg">Close</h3>
+ <ul>
+    <!--<li id="accordian_motor">-->
+     <li class="active">
+      <h3 ><div id="accordian_sub_motor_border"></div><div id="accordian_sub_motor_img"><div id="accordian_sub_motor_text">Motor</div></div></h3>
+      <ul id="accordian_sub_motor">
+        <!--<li><a href="#"><div id="accordian_motor_icon1"><div id="accordian_motor_icontext">Under_construction</div></div></a></li>-->
+
+        <div id="main_menu">
+        <div class="true_red"><li><a href="#"></a></li></div>
+        <div class="neon_pink"><li><a href="#"></a></li></div>
+        <div class="true_orange"><li><a href="#"></a></li></div>
+        <div class="neon_orange"><li><a href="#"></a></li></div>
+        <div class="true_yellow"><li><a href="#"></a></li></div>
+        <div class="true_green"><li><a href="#"></a></li></div>
+        <div class="true_blue"><li><a href="#"></a></li></div>
+        <div class="true_purple"><li><a href="#"></a></li></div>
+        <div class="true_white"><li><a href="#"></a></li></div>
+        <div class="warm_gray"><li><a href="#"></a></li></div>
+        <div class="cool_gray"><li><a href="#"></a></li></div>
+        <div class="true_black"><li><a href="#"></a></li></div>
+        </div>
+
+      </ul>
+    </li>
+  </ul>
+</div>
+
+  <!--Jquery Library -->
+  <script src="js/jquery-2.1.0.min.js"></script>
+  <!--JavaScript 3D WebGL library REVISION:64-->
+  <script src="js/three.min.js"></script>
+  <!-- three.js controls -->
+  <script src="js/OrbitControls.js"></script>
+  <!--MainSWC -->
+  <script src="js/ShellmoWebCreator.js"></script>
+
+  <!-- prefix free to deal with vendor prefixes -->
+  <!-- <script src="http://thecodeplayer.com/uploads/js/prefixfree-1.0.7.js" type="text/javascript" type="text/javascript"></script> -->
+
+  <!--SWC Menu-->
+  <script src="js/SWC_Menu.js"></script>
+
+</body>
+</html>
