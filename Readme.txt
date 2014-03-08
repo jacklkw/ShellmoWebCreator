@@ -1,7 +1,6 @@
 Shellmo Web Creator (SWC) v0.0.4 min
 www.Shellmo.org
 
-By JackLee 
 https://github.com/jacklkw
 8 March 2014
 
@@ -13,3 +12,5 @@ module combination, accessories types. the utility of SWC(e.g. loading speed and
 Sho Yoshida want to show new idea and ways for making robot. and We can publicize it as contents of Shellmo. 
 This is the purpose of making SWC
 
+The MIT License (MIT)
+Copyright (c) 2014 Jack Lee
