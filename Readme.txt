@@ -13,4 +13,4 @@ Sho Yoshida want to show new idea and ways for making robot. and We can publiciz
 This is the purpose of making SWC
 
 The MIT License (MIT)
-Copyright (c) 2014 Jack Lee
+Copyright (c) 2014 ShellmoProject
